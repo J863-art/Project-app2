@@ -1,0 +1,22 @@
+.form-signin .form-control {
+    text-align: left; /* Membuat teks di input rata kiri */
+    padding-left: 10px; /* Menambahkan padding kiri agar teks tidak terlalu dekat */
+}
+
+
+
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-signin input[type="nik"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
