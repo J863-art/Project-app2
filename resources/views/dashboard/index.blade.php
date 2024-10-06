@@ -55,6 +55,4 @@
             <p class="mb-0">© 2024 Blerentsys. All Rights Reserved.</p>
         </footer>
     </div>
-@else
-@endif
 @endsection
