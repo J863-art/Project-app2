@@ -1,7 +1,6 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-@if (!auth()->check() || auth()->user()->role === 'user')
     <div class="container-fluid p-4">
         <!-- Hero Section with Background Image -->
         <div class="hero-section position-relative mb-4" style="background: url('/path/to/your/hero-image.jpg') no-repeat center center; background-size: cover; height: 350px; border-radius: 15px;">
@@ -57,8 +56,5 @@
         </footer>
     </div>
 @else
-    @php
-        abort(403);
-    @endphp
 @endif
 @endsection
