@@ -19,7 +19,7 @@ class RapatController extends Controller
         // Mengambil data rapat
         $rapat = Rapat::select('id', 'tanggal', 'judul', 'alamat')->get();
         $title = "Rapat"; // Set variabel $title untuk halaman Rapat
-        return view('rapat.rapat', compact('rapat', 'title')); // Kirim ke view
+        return view('Rapat.rapat', compact('rapat', 'title')); // Kirim ke view
     }
 
     public function show($id)
