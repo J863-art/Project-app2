@@ -33,7 +33,7 @@ class RapatController extends Controller
         // Mengambil satu record rapat
         $rapat = Rapat::findOrFail($id);
         $title = "Rapat"; // Set variabel $title untuk halaman Detail Rapat
-        return view('rapat.detailrapat', compact('rapat', 'title')); // Kirim ke view
+        return view('Rapat.detailrapat', compact('rapat', 'title')); // Kirim ke view
     }
 
     public function download($id)
